@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <header> <h1> 2do Parcial</h1></header>
+
+
+
+    <section>
+
+        <article id="curso">
+            <p  id="parrafo">Titulo del curso</p>
+        </article>
+
+
+        <article id="contenido">
+
+            <label for="curso">Seleccione un curso</label>
+
+            <div id="radio">
+
+                <input type="radio"  onchange="cambiarCurso(this)" name="curso" value="HTML" >HTML
+                <input type="radio"   onchange="cambiarCurso(this)" name="curso" value="CSS" >CSS
+                <input type="radio"  onchange="cambiarCurso(this)" name="curso" value="Javascript" >JAVASCRIPT
+
+
+            </div>
+
+
+
+
+            <label for="">Cambia el color del texto</label>
+            <select name="texto_color" id="texto_color">
+                <option value="">Seleccione un color</option>
+                <option value="rojo">rojo</option>
+                <option value="verde">verde</option>
+                <option value="amarillo">amarillo</option>
+
+            </select>
+
+            <label for="color_fondo">Seleccione el color de fondo</label>
+
+            <div id="radio">
+
+                <input type="radio"  onchange="cambiarFondo(this)" name="color_fondo" value="verde" >verde
+                <input type="radio"   onchange="cambiarFondo(this)" name="color_fondo" value="violeta" >violeta
+                <input type="radio"  onchange="cambiarFondo(this)" name="color_fondo" value="naranja" >naranja
+
+            </div>
+
+
+
+        </article>
+
+
+
+    </section>
+
+
+    <footer>
+
+        <h3>Rotela Kevin - 45285663</h3>
+    </footer>
+
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

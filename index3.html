@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/estilos3.css">
+</head>
+<body>
+    
+
+
+    <header>
+
+        <h1>PRUEBA RANDOM</h1>
+    </header>
+
+
+
+
+    <section>
+        <article id="articulo">
+
+
+            <p id="parrafo"> INTRODUCE ALGO </p>
+
+
+        </article>
+
+
+
+        <article id="contenido">
+
+            <label for="">Cambiar el color del fondo</label>
+            <div id="botones">
+                <button id="azul" value="azul"   onclick="cambiarFondoDeColor(this)">Azul</button>
+                <button id="rojo" value="rojo"   onclick="cambiarFondoDeColor(this)">Rojo</button>
+                <button id="verde" value="verde"  onclick="cambiarFondoDeColor(this)">Verde</button>
+                <button id="rosa" value="rosa"  onclick="cambiarFondoDeColor(this)">Rosa</button>
+            </div>
+
+
+            <br>
+            <br>
+
+
+            <label for="">Introducir un texto</label>
+            <input type="text"  id="ingresar_texto">
+
+            <br>
+            <br>
+
+
+            <label for="">Alterar la alineacion del texto</label>
+            <select name="alineacion" id="alineacion">
+
+                <option value="">Seleccione una opcion</option>
+                <option value="izquierda"> Izquierda</option>
+                <option value="centrado"> Centrado</option>
+                <option value="derecha"> Derecha</option>
+            </select>
+
+
+
+            <br>
+            <br>
+
+
+            <label for="color">Cambiar el color del texto</label>
+            <div id="radio">
+                <input type="radio"  name="color" value="celeste"    onchange="cambiarColorDelTexto(this)">celeste
+                <input type="radio"  name="color" value="violeta"     onchange="cambiarColorDelTexto(this)">violeta
+                <input type="radio"  name="color"  value="marron"  onchange="cambiarColorDelTexto(this)">marron
+                <input type="radio"  name="color"  value="purpura"   onchange="cambiarColorDelTexto(this)">purpura
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <footer>
+
+
+        <h3>Rotela Kevin - 45285663</h3>
+    </footer>
+
+
+
+    <script  src="scripts/script3.js"></script>
+</body>
+</html>

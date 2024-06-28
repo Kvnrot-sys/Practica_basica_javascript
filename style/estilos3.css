@@ -1,0 +1,67 @@
+
+
+
+header{
+
+    text-align: center;
+
+    border-style: solid;
+}
+
+
+
+
+
+
+#articulo{
+    border-style: solid;
+    margin: 20%;
+    height: 30%;
+    justify-content: space-around;
+
+}
+
+
+
+#contenido{
+    height: 54%;
+    margin: 20%;
+    border-style: solid;
+    padding: 4%;
+    DISPLAY: GRID;
+    gap: 1em;
+}
+
+
+
+
+#parrafo{
+    margin-top: 0;
+}
+
+
+
+section{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-style: solid;
+}
+
+
+body{
+    min-height: 100vh;
+    border-style: solid;
+
+}
+
+
+
+
+
+footer{
+    position: static;
+    top: 100%;
+    border-style: solid;
+
+}
